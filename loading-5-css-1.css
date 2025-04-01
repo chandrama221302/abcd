@@ -1,0 +1,76 @@
+.tour-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: all 0.5s ease;
+}
+
+ .price-tag {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #008b8b;
+    transform: rotate(-90deg);
+    color: white;
+    padding: 8px 12px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+.tour-card  {
+    gap: 10px;
+    font-size: 14px;
+    margin-top: 0px;
+    top: 0px;
+    right: 0px;
+    background: #008b8b;
+    bottom: 0;
+    left: 0;
+    width: 400px;
+    color: white;
+    /* padding: 6px 6px; */
+    font-weight: bold;
+    border-radius: 0px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+
+.tour-meta{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    padding-top: 25px;
+}
+ .tour-meta i {
+    color: #ffffff;
+    
+}
+.line{
+    width: 100px;
+    height: 2px;
+    background-color: #fff;
+    transition: all 0.5s ease;
+}
+.TourPages{
+    opacity: 1;
+    padding-bottom: 5px;
+}
+.opacity-0{
+    opacity: 1;
+}
+.tour-info{
+    position: absolute;
+    bottom: -20px;
+    
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    padding: 15px;
+    transition: all 0.5s ease;
+}
